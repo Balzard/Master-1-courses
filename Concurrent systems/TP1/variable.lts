@@ -1,0 +1,7 @@
+const N = 2
+range R = 0..N
+
+VARIABLE(N=2) = VARIABLE[2],
+VARIABLE[0] = (read[0] -> VARIABLE[0] | write[2] -> VARIABLE[2]),
+VARIABLE[1] = (read[1] -> VARIABLE[1] | write[0] -> VARIABLE[0]),
+VARIABLE[2] = (read[2] -> VARIABLE[2] | write[1] -> VARIABLE[1]).

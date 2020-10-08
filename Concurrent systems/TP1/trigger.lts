@@ -1,0 +1,1 @@
+BISTABLE = (trigger -> o[0] -> trigger -> o[1] -> BISTABLE).

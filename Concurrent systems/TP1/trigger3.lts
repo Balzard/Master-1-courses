@@ -1,0 +1,5 @@
+const K = 2
+TRIGGER(K=2) = TRIGGER[0],
+TRIGGER[0] = (trigger -> o[0] -> TRIGGER[1]),
+TRIGGER[1] = (trigger -> o[1] -> TRIGGER[2]),
+TRIGGER[2] = (trigger -> o[2] -> TRIGGER[0]).

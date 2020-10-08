@@ -1,0 +1,4 @@
+const K = 3
+range R = 0..2
+
+ADDER = (in[i:R] -> out[i+K] -> ADDER).

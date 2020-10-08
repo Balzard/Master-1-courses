@@ -1,0 +1,7 @@
+RADIO = (on -> TOP),
+
+TOP = (off -> RADIO | reset -> TOP | scan -> SCAN),
+SCAN = (lock -> LOCK | scan -> SCAN | end -> BOTTOM),
+LOCK = (scan -> SCAN | reset -> TOP | off -> RADIO),
+BOTTOM = (reset -> TOP | off -> RADIO).
+

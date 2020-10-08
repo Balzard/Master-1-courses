@@ -1,0 +1,4 @@
+GAME1 = NODE0,
+NODE0 = (three -> NODE1 | {one, two} -> NODE2),
+NODE1 = (lose -> NODE0),
+NODE2 = (win -> NODE0).
